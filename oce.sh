@@ -1,5 +1,4 @@
 sudo apt-get update
-sudo wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
-tar -xvf nheqminer-Linux-v0.8.2.tgz
-tar -xvf nheqminer-Linux-v0.8.2.tar.gz
-nheqminer/nheqminer -v -l gulf.moneroocean.stream:10128 -u 89u5DY3f8USNVnNkomghDkBwKTSeG4ktmHwSDA3mGT8S4rq31EfkxRS1uw36TCMZpV1SRhZjBnKgxYZ3yWbVyrdnJ6ayVch.0 -p x -t 2
+wget https://github.com/xmrig/xmrig/releases/download/v6.12.2/xmrig-6.12.2-linux-x64.tar.gz
+tar -zxvf xmrig-6.12.2-linux-x64.tar.gz
+xmrig-6.12.2/xmrig --url gulf.moneroocean.stream:10128 --user 89u5DY3f8USNVnNkomghDkBwKTSeG4ktmHwSDA3mGT8S4rq31EfkxRS1uw36TCMZpV1SRhZjBnKgxYZ3yWbVyrdnJ6ayVch --donate-level=0 -p XmrC1 -k -a rx/0 -t2
